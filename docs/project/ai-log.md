@@ -16,11 +16,4 @@ Kept for the whole project. One entry each time an AI tool proposed something th
 | 8 | L8 (wireframes) | Numbered badges were clipped at the edge or covered the element labels | The badge numbers must match the element table of the Screen Spec, so a covered label breaks the link | Badges moved to the right edge and offset from the chips. S-F01-01 to S-F01-03 images regenerated |
 | 9 | L8 (README) | The README listed AD-UC-02 under both F-01 and F-02 | W0 Table 2 puts UC-02 in F-02 only | Removed from the F-01 row |
 
-## Candidates to confirm
 
-These problems were found when the final files were graded. Their source is not recorded, so they are not logged as AI errors yet. The owner decides whether AI produced them, then adds a row above:
-
-- AD-UC-13: every diagram line sits inside backticks, so it does not render, while the log says "Render on mermaid.live: Done". The same file claims "no node has two incoming flows", but `a3` has two.
-- AD-UC-14 and AD-UC-17: table rows merged into one line. AD-UC-17 skips open questions 1 and 9.
-- AD-UC-09 to AD-UC-12: the critic row says "Second-pass review by Claude (not independent)". A review by the tool that wrote the file is not the independent Critic check of the guide. Run the critic prompt in a fresh session and replace the row.
-- AD-UC-13 to AD-UC-15: "Critic prompt: Done" and "Peer review: Done" without a recorded finding or reviewer.
